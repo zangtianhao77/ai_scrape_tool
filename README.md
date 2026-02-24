@@ -8,21 +8,17 @@ Unlike traditional rule-based web scrapers that rely on brittle CSS selectors or
 
 ## ✨ Core Features
 
-* 
-**Dynamic URL Input (UI):** Provides a clean Streamlit interface that allows users to input any website URL dynamically.
+* **Dynamic URL Input (UI):** Provides a clean Streamlit interface that allows users to input any website URL dynamically.
 
 
-* 
-**LLM-Powered Component Detection:** Scrapes the HTML markup and uses an AI model to intelligently locate the Username and Password authentication section (e.g., `<input type="password">`, `<form>` tags, login divs).
+* **LLM-Powered Component Detection:** Scrapes the HTML markup and uses an AI model to intelligently locate the Username and Password authentication section (e.g., `<input type="password">`, `<form>` tags, login divs).
 
 
 * **Agentic Auto-Navigation:** If a user inputs a homepage or content URL instead of a direct login page, the built-in AI Agent performs multi-step reasoning to locate the "Log in" or "Sign in" link, dynamically navigates to the target page, and performs the extraction.
-* 
-**Structured HTML Output:** The application accurately displays or returns the raw HTML snippet containing the login form. If no component exists or the page is entirely blocked by anti-bot systems, it gracefully states that none was found.
+* **Structured HTML Output:** The application accurately displays or returns the raw HTML snippet containing the login form. If no component exists or the page is entirely blocked by anti-bot systems, it gracefully states that none was found.
 
 
-* 
-**Multi-Domain Validation:** Pre-configured to test against five different websites (including news media, SaaS, and developer communities) to demonstrate generalization.
+* **Multi-Domain Validation:** Pre-configured to test against five different websites (including news media, SaaS, and developer communities) to demonstrate generalization.
 
 
 
