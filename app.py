@@ -6,7 +6,7 @@ import time
 from urllib.parse import urljoin
 
 # set up API Key
-OPENAI_API_KEY = "YOUR_OPENAI_API_KEY" 
+OPENAI_API_KEY = st.secrets.get("OPENAI_API_KEY", os.getenv("OPENAI_API_KEY"))
 client = openai.OpenAI(api_key=OPENAI_API_KEY)
 
 def clean_html(raw_html):
