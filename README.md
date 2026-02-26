@@ -96,8 +96,9 @@ The application will automatically open in your default web browser at `http://l
 
 The application has been configured to test against the following diverse URLs, which include both direct login pages and complex content pages that challenge the Agent's extraction and navigation logic:
 
-1. **Stack Overflow (Developer Q&A):** `https://stackoverflow.com/questions`
-2. **CNN (News Media):** `https://edition.cnn.com/`
-3. **Salesforce (Enterprise SaaS):** `https://login.salesforce.com/`
-4. **The New York Times (News Media):** `https://www.nytimes.com/`
-5. **Box (Cloud Storage SaaS):** `https://account.box.com/login`
+https://www.amazon.com/
+https://stackoverflow.com/questions
+https://edition.cnn.com/
+https://www.box.com/home
+https://news.yahoo.com
+
