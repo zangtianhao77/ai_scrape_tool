@@ -144,7 +144,7 @@ st.markdown("Automated detection of login portals and HTML snippet extraction.")
 with st.sidebar:
     st.header("Suggested Test Links")
     st.markdown("Click below to copy a link:")
-    st.code("https://www.amazon.com/")
+    st.code("https://www.youtube.com/")
     st.code("https://stackoverflow.com/questions")
     st.code("https://edition.cnn.com/")
     st.code("https://www.box.com/home")
