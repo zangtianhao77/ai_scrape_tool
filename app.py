@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 import openai
 import time
 from urllib.parse import urljoin
+import os
 
 # set up API Key
 OPENAI_API_KEY = st.secrets.get("OPENAI_API_KEY", os.getenv("OPENAI_API_KEY"))
